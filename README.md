@@ -1,0 +1,2 @@
+# ReleaseWit
+Release Notes Generator
