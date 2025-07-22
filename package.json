@@ -1,7 +1,7 @@
 {
   "name": "releasewit",
   "version": "1.0.0",
-  "description": "Funny Release Notes Generator",
+  "description": "Release Notes Generator",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
