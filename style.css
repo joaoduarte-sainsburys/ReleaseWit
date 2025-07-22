@@ -131,14 +131,22 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: 80vh;
     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 20px;
 }
 
 .login-container {
     text-align: center;
     max-width: 400px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .login-hero {
@@ -159,6 +167,7 @@ main {
     font-size: 2em;
     font-weight: normal;
     letter-spacing: 0.5px;
+    white-space: nowrap;
 }
 
 .login-container p {

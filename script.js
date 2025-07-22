@@ -9,8 +9,8 @@ class ReleaseWitApp {
         
         this.apiKey = localStorage.getItem('claude_api_key');
         this.savedNotes = JSON.parse(localStorage.getItem('saved_notes')) || [];
+        this.currentNotes = JSON.parse(localStorage.getItem('current_notes')) || [];
         this.examples = [];
-        this.currentNotes = [];
         this.formValidationSetup = false;
         
         
@@ -24,6 +24,7 @@ class ReleaseWitApp {
         this.updateUIState();
         this.displaySavedNotes();
         this.restoreActiveTab();
+        this.restoreCurrentResults();
     }
 
     async loadExamples() {
@@ -270,6 +271,7 @@ class ReleaseWitApp {
             
             if (releaseNotes && releaseNotes.length > 0) {
                 this.currentNotes = releaseNotes;
+                localStorage.setItem('current_notes', JSON.stringify(releaseNotes));
                 this.displayReleaseNotes(releaseNotes);
             } else {
                 throw new Error('No release notes generated');
@@ -441,8 +443,14 @@ ${reviewText}`;
     }
 
     restoreActiveTab() {
-        const activeTab = localStorage.getItem('activeTab') || 'generate';
+        const activeTab = localStorage.getItem('activeTab') || 'generator';
         this.switchTab(activeTab);
+    }
+
+    restoreCurrentResults() {
+        if (this.currentNotes && this.currentNotes.length > 0) {
+            this.displayReleaseNotes(this.currentNotes);
+        }
     }
 
     displaySavedNotes() {
@@ -533,6 +541,7 @@ ${reviewText}`;
         document.getElementById('resultsSection').style.display = 'none';
         document.getElementById('releaseNotes').innerHTML = '';
         this.currentNotes = [];
+        localStorage.removeItem('current_notes');
         
         // Reset button text to "Generate"
         const generateBtn = document.getElementById('generateBtn');
