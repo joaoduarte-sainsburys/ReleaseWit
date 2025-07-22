@@ -1,0 +1,43 @@
+{
+  "examples": [
+    "🚀 Version 2.3.1: Fixed the bug where our app would crash when you tried to actually use it. Turns out, testing is important. Who knew?",
+    
+    "🎉 Release 1.8.0: Added dark mode because apparently light mode is now considered a war crime. Your retinas can thank us later.",
+    
+    "⚡ Hotfix 3.2.1: Removed the 'feature' where clicking 'Delete All' would actually delete all. We thought it was too honest.",
+    
+    "🐛 Bug Squash Update: Finally caught the elusive heisenbug that only appeared when nobody was looking. It's now in witness protection.",
+    
+    "🎯 Version 4.1.0: Improved performance by 200%! (Note: This is measured compared to when the app was completely broken last week)",
+    
+    "🔧 Patch 2.5.3: Fixed issue where 'Are you sure?' dialog had 47 nested confirmations. Now down to a reasonable 12.",
+    
+    "🌟 Major Release 5.0.0: Rewrote entire codebase in a different language because Steve said JavaScript was 'so last year'.",
+    
+    "🎮 Update 1.9.2: Added achievement system. First achievement: 'Survived the Tutorial' - surprisingly, only 3% of users have unlocked it.",
+    
+    "🍕 Friday Release: Fixed pizza emoji not displaying correctly. This was our #1 priority according to the user feedback (all from Jim in accounting).",
+    
+    "🚨 Emergency Patch: Removed AI assistant that kept suggesting users delete System32. Legal said this was 'problematic'.",
+    
+    "🎭 Version 3.7.0: Added 'Sarcasm Mode' to all error messages. 404 errors now say 'Wow, great job finding nothing. Really impressive.'",
+    
+    "🎪 Circus Release 2.8.0: Added so many features that even we don't know what half of them do. Good luck!",
+    
+    "🧙 Magical Update: Fixed issue where app would randomly turn users into newts. Side effect: performance improved significantly.",
+    
+    "🎸 Rock'n'Roll Release: All buttons now make guitar sounds when clicked. This cannot be disabled. You're welcome.",
+    
+    "🐉 Dragon Slayer Patch: Defeated the memory leak dragon that was eating our server's RAM. It fought valiantly but died anyway.",
+    
+    "🎨 Artist Edition: Changed all fonts to Comic Sans because our UX designer said it 'brings joy'. They have since been relocated.",
+    
+    "🚗 Version 4.4.0: Added turbo mode! App now loads 50% faster*. (*Speed increase not guaranteed and may actually be slower)",
+    
+    "🎪 Bug Circus: Fixed 23 bugs but accidentally created 24 new ones. Net result: We're getting worse at this but having more fun!",
+    
+    "🎵 Musical Chairs Update: Randomly rearranges UI elements every 30 seconds. Users report this is 'surprisingly addictive'.",
+    
+    "🏰 Castle Defense Patch: Built moat around login button to prevent brute force attacks. Drawbridge sold separately."
+  ]
+}
