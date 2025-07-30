@@ -9,11 +9,13 @@ class ReleaseWitApp {
         
         this.apiKey = localStorage.getItem('claude_api_key');
         this.savedNotes = JSON.parse(localStorage.getItem('saved_notes')) || [];
-        this.currentNotes = JSON.parse(localStorage.getItem('current_notes')) || [];
+        this.currentNotes = [];
         this.examples = [];
         this.formValidationSetup = false;
         
-        
+        // Clear previous session data for clean startup
+        localStorage.removeItem('current_notes');
+        localStorage.removeItem('activeTab');
         
         this.init();
     }
@@ -23,8 +25,9 @@ class ReleaseWitApp {
         this.setupEventListeners();
         this.updateUIState();
         this.displaySavedNotes();
-        this.restoreActiveTab();
-        this.restoreCurrentResults();
+        this.clearInputFields();
+        // Start on generator tab by default
+        this.switchTab('generator');
     }
 
     async loadExamples() {
@@ -442,16 +445,6 @@ ${reviewText}`;
         this.showTemporaryMessage('Note saved successfully!', 'success');
     }
 
-    restoreActiveTab() {
-        const activeTab = localStorage.getItem('activeTab') || 'generator';
-        this.switchTab(activeTab);
-    }
-
-    restoreCurrentResults() {
-        if (this.currentNotes && this.currentNotes.length > 0) {
-            this.displayReleaseNotes(this.currentNotes);
-        }
-    }
 
     displaySavedNotes() {
         const container = document.getElementById('savedNotes');
@@ -546,6 +539,12 @@ ${reviewText}`;
         // Reset button text to "Generate"
         const generateBtn = document.getElementById('generateBtn');
         generateBtn.querySelector('.btn-text').textContent = 'Generate';
+    }
+
+    clearInputFields() {
+        // Clear both input fields for clean startup
+        document.getElementById('reviewText').value = '';
+        document.getElementById('topicText').value = '';
     }
 
     showTemporaryMessage(message, type = 'info') {

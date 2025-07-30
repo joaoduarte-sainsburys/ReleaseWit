@@ -1,43 +1,57 @@
 {
   "examples": [
-    "🚀 Version 2.3.1: Fixed the bug where our app would crash when you tried to actually use it. Turns out, testing is important. Who knew?",
+    "Marty: Wait a minute. Wait a minute, Doc. Ah... Are you telling me that you built a time machine... out of a DeLorean?
+Doc: The way I see it, if you're gonna build a time machine into a car, why not do it with some style.
+Marty: Is it dangerous?
+Doc: Completely safe, just don't try and use the Argos app around Easter Bank Holiday 2016
+Marty: The catalogue guys? Why, what happened?
+Doc: No, no, no they're so much more now. Simple error with the code, turns out they didn't plan for British Summer Time and it broke stuff. Fixed it pretty quick though.
+Marty: Really? How did they miss that one, surely they had 6 months to figure it out?!
+Doc: No idea Marty, in the future people drink too much coffee and caffeine gremlins eat their intelligence from the inside out - little known fact, but I've seen them Marty...I've seen them.
+Marty: You sure the DeLorean doesn't have a gas leak Doc?",
     
-    "🎉 Release 1.8.0: Added dark mode because apparently light mode is now considered a war crime. Your retinas can thank us later.",
+    "Me: Did we not have the Gallery view in the last release?
+Team: No, ran out of time. Its back now though and you can even watch videos in landscape.
+Me: Nice... starts humming the gallery theme tune
+Team: What's that?
+Me: Come on... thats the Gallery music from Take Hart
+room of blank looks
+Me: You know? Kids art show with Tony Hart?
+...
+Me: And Morph? The little clay dude?! Really?
+...
+Me: Man, you lot are too young. It was like Art Attack I guess.
+Team: Think we're too young for Art Attack as well.
+Me: grabs pipe and slippers, sits quietly in the corner, mutters about how awesome 80s kids TV was.",
     
-    "⚡ Hotfix 3.2.1: Removed the 'feature' where clicking 'Delete All' would actually delete all. We thought it was too honest.",
+    "Right... so we have been listening to what you wanted to see on the app and we have been working on the Wishlist feature. Not content with just bringing you one Wishlist to put all your incredible choices from the Argos Cave of Wonders, you can now have as many as you like and call them whatever you want. A Wishlist for your Birthday, a Wishlist for moving house, a Wishlist for your wedding... or just one for the stuff you don't really need but are definitely going to buy come pay day.
+*insert gif of Oprah - \"you get a Wishlist and you get a Wishlist...\"",
     
-    "🐛 Bug Squash Update: Finally caught the elusive heisenbug that only appeared when nobody was looking. It's now in witness protection.",
+    "Some of you may have already seen this one, but now everyone has access to our new Visual Search tool. Now, I know what you're thinking, 'finally, an absolute fail-safe way to find Wally'. While that would have been awesome, what we actually built helps you discover furniture and stuff to decorate your home with.
+Simply take a pic of something you like and it'll give you results of either the exact thing or something similar... it could be actual magic, and in the absence of my devs to explain it to me, I'm going to have to assume it is. A veritable horde of tiny wizards riding equally tiny unicorns, both wearing monocles, galloping through the realms of the Argos App world (call it Argosarnia) and gathering all the images for you. So, in summary, I need to lay off the coffee but please give the feature a try and all great results were us, any weird results, we'll blame the tiny wizards.",
     
-    "🎯 Version 4.1.0: Improved performance by 200%! (Note: This is measured compared to when the app was completely broken last week)",
+    "Twas the night before (ok month) before Christmas and all was a buzz,
+Down the street they raced, huge in size and multi-coloured in fuzz,
+Be quick or you'll miss them going from store to door and back,
+Delivering a massive choice of gifts same day to you via Argos Fast Track,
+A little child waits patiently with her family next to the tree,
+Hoping to unwrap a present or two... or fingers crossed thirty-three,
+What they really want however, is a huggable vacuum called Hetty,
+No product placement here, but not much Christmasy rhymes with Yeti...
+But Dad being Dad, has left it right down to the wire,
+There's a death stare from Mum and the situation seems dire. But inspiration hits him and he remembers the Argos App,
+Just as well, otherwise Mum would have made his life... bad,
+He searches for Hetty, orders with same day Fast Track,
+And just like that the love in his wife's eyes is back,
+Soon, a knock at the door, \"its Santa\" cries Aunt Betty,
+Put the sherry down love, it's just an 8-foot Purple Yeti,
+Christmas is saved, a gift better than frankincense or myrrh,
+Delivered by a bobble-hatted Yeti with luminous fur,
+And there's our story wrapped up with a bow and that is that,
+Apologies if it was less Clement Clark Moore and a bit Cat in the Hat,
+I threw in some randomness and a tenuous rhyme or five,
+Hope to Santa that in my stocking this year there isn't a p45...",
     
-    "🔧 Patch 2.5.3: Fixed issue where 'Are you sure?' dialog had 47 nested confirmations. Now down to a reasonable 12.",
-    
-    "🌟 Major Release 5.0.0: Rewrote entire codebase in a different language because Steve said JavaScript was 'so last year'.",
-    
-    "🎮 Update 1.9.2: Added achievement system. First achievement: 'Survived the Tutorial' - surprisingly, only 3% of users have unlocked it.",
-    
-    "🍕 Friday Release: Fixed pizza emoji not displaying correctly. This was our #1 priority according to the user feedback (all from Jim in accounting).",
-    
-    "🚨 Emergency Patch: Removed AI assistant that kept suggesting users delete System32. Legal said this was 'problematic'.",
-    
-    "🎭 Version 3.7.0: Added 'Sarcasm Mode' to all error messages. 404 errors now say 'Wow, great job finding nothing. Really impressive.'",
-    
-    "🎪 Circus Release 2.8.0: Added so many features that even we don't know what half of them do. Good luck!",
-    
-    "🧙 Magical Update: Fixed issue where app would randomly turn users into newts. Side effect: performance improved significantly.",
-    
-    "🎸 Rock'n'Roll Release: All buttons now make guitar sounds when clicked. This cannot be disabled. You're welcome.",
-    
-    "🐉 Dragon Slayer Patch: Defeated the memory leak dragon that was eating our server's RAM. It fought valiantly but died anyway.",
-    
-    "🎨 Artist Edition: Changed all fonts to Comic Sans because our UX designer said it 'brings joy'. They have since been relocated.",
-    
-    "🚗 Version 4.4.0: Added turbo mode! App now loads 50% faster*. (*Speed increase not guaranteed and may actually be slower)",
-    
-    "🎪 Bug Circus: Fixed 23 bugs but accidentally created 24 new ones. Net result: We're getting worse at this but having more fun!",
-    
-    "🎵 Musical Chairs Update: Randomly rearranges UI elements every 30 seconds. Users report this is 'surprisingly addictive'.",
-    
-    "🏰 Castle Defense Patch: Built moat around login button to prevent brute force attacks. Drawbridge sold separately."
+    "Tough one to explain this time as we are just introducing a couple of A/B tests, so there are a few different features running, with subtle changes. They all exist in there at the same time but some will see some of them, some of the time, some will see all of them all of the time, and some just won't see any. A bit like Schrodinger's cat, but instead of putting Smudge the Argos cat in a box we sent him shopping into the multiverse instead."
   ]
 }
